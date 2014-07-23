@@ -7,12 +7,6 @@
    Requires LuaJIT.
 --]======================================================================]
 
--- This package is now deprecated
-print [[
-WARNING: 'torchffi' is now deprecated. All of its functionality has been
-merged/integrated into 'torch'.
-]]
-
 -- We need FFI, of course :-)
 require 'torch'
 local ok = pcall(function() ffi = require 'ffi' end)
